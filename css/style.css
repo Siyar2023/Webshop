@@ -78,7 +78,12 @@ footer {
 }
 
 .card-img-top {
-    height: 500px; /* Gör bilden större */
-    object-fit: cover; /* Beskär bilden så att den fyller kortet */
-    width: 100%; /* Gör bilden lika bred som kortet */
+    height: 500px; /* Makes the image larger */
+    object-fit: contain; /* Crops the image so it fills the card */
+    width: 100%; /* Makes the image as wide as the card */
+}
+
+
+.card img:hover {
+    transform: scale(1.2); /* Enlarges the image by 20% */
 }
