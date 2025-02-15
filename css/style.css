@@ -1,0 +1,84 @@
+/* Global styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f8b400 !important;
+}
+
+.nav-item a[style] {
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* Badge */
+.badge {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 10px 0;
+    color: white;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 500px; /* Gör bilden större */
+    object-fit: cover; /* Beskär bilden så att den fyller kortet */
+    width: 100%; /* Gör bilden lika bred som kortet */
+}
